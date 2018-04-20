@@ -1,0 +1,2 @@
+excl=0;/home/fchoi/servers/hexxit-cary/mods/resources/ruins/ocean/PirateShip.tml
+excl=0;/home/fchoi/servers/hexxit-cary/mods/resources/ruins/ocean/SkyCastle.tml

@@ -1,0 +1,4 @@
+excl=2;/home/fchoi/servers/hexxit-cary/mods/resources/ruins/desert/Beacon.tml
+excl=0;/home/fchoi/servers/hexxit-cary/mods/resources/ruins/ocean/PirateShip.tml
+excl=45;/home/fchoi/servers/hexxit-cary/mods/resources/ruins/mountainous desert/TallTower.tml
+excl=45;/home/fchoi/servers/hexxit-cary/mods/resources/ruins/mountainous desert/Beacon.tml
