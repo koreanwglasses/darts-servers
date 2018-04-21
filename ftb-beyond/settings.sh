@@ -22,7 +22,7 @@ export FORGEJAR="FTBserver-1.10.2-12.18.3.2422.jar"
 ## Copy following lines into settings-local.sh to create local config file which overrides default settings given here
 export JAVACMD="java"
 export MIN_RAM="512M"        # -Xms
-export MAX_RAM="3072M"       # -Xmx
+export MAX_RAM="6144M"       # -Xmx
 export PERMGEN_SIZE="256M"   # -XX:PermSize
 export JAVA_PARAMETERS="-XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
 
