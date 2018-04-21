@@ -3315,3 +3315,16 @@ java.lang.NoSuchFieldError: field_77791_bV
 2018-04-21 15:09:12 [WARNING] Sir_Jhaeros moved wrongly!
 2018-04-21 15:09:18 [INFO] variouspotatoes lost connection: disconnect.quitting
 2018-04-21 15:09:23 [INFO] Sir_Jhaeros lost connection: disconnect.quitting
+2018-04-21 16:28:51 [INFO] There are 0/20 players online:
+2018-04-21 16:28:51 [INFO] 
+2018-04-21 16:29:23 [INFO] Stopping the server
+2018-04-21 16:29:23 [INFO] Stopping server
+2018-04-21 16:29:23 [INFO] Saving players
+2018-04-21 16:29:23 [INFO] Saving worlds
+2018-04-21 16:29:23 [INFO] Saving chunks for level 'world'/Overworld
+2018-04-21 16:29:23 [INFO] Closing listening thread
+2018-04-21 16:29:23 [INFO] Saving chunks for level 'world'/Nether
+2018-04-21 16:29:23 [INFO] Saving chunks for level 'world'/Twilight Forest
+2018-04-21 16:29:25 [INFO] Stopping server
+2018-04-21 16:29:25 [INFO] Saving players
+2018-04-21 16:29:25 [INFO] Saving worlds
