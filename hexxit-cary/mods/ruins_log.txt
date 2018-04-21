@@ -14,13 +14,13 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 0
 	at atomicstryker.ruins.common.RuinsMod$RuinsWorldGenerator.generate(RuinsMod.java:101)
 	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:102)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:259)
-	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1244)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1249)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:153)
 	at net.minecraft.server.management.PlayerInstance.<init>(PlayerInstance.java:36)
 	at net.minecraft.server.management.PlayerManager.func_72690_a(SourceFile:172)
 	at net.minecraft.server.management.PlayerManager.func_72685_d(SourceFile:300)
 	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:276)
-	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:408)
+	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:250)
 	at net.minecraft.network.packet.Packet10Flying.func_73279_a(SourceFile:136)
 	at net.minecraft.network.TcpConnection.func_74428_b(TcpConnection.java:461)
 	at net.minecraft.network.NetServerHandler.func_72570_d(NetServerHandler.java:134)
@@ -48,13 +48,13 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 0
 	at atomicstryker.ruins.common.RuinsMod$RuinsWorldGenerator.generate(RuinsMod.java:101)
 	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:102)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:259)
-	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1244)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1249)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:153)
 	at net.minecraft.server.management.PlayerInstance.<init>(PlayerInstance.java:36)
 	at net.minecraft.server.management.PlayerManager.func_72690_a(SourceFile:172)
 	at net.minecraft.server.management.PlayerManager.func_72685_d(SourceFile:300)
 	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:276)
-	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:408)
+	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:250)
 	at net.minecraft.network.packet.Packet10Flying.func_73279_a(SourceFile:136)
 	at net.minecraft.network.TcpConnection.func_74428_b(TcpConnection.java:461)
 	at net.minecraft.network.NetServerHandler.func_72570_d(NetServerHandler.java:134)
@@ -80,13 +80,13 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 0
 	at atomicstryker.ruins.common.RuinsMod$RuinsWorldGenerator.generate(RuinsMod.java:101)
 	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:102)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:259)
-	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1244)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1249)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:153)
 	at net.minecraft.server.management.PlayerInstance.<init>(PlayerInstance.java:36)
 	at net.minecraft.server.management.PlayerManager.func_72690_a(SourceFile:172)
 	at net.minecraft.server.management.PlayerManager.func_72685_d(SourceFile:300)
 	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:276)
-	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:408)
+	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:250)
 	at net.minecraft.network.packet.Packet10Flying.func_73279_a(SourceFile:136)
 	at net.minecraft.network.TcpConnection.func_74428_b(TcpConnection.java:461)
 	at net.minecraft.network.NetServerHandler.func_72570_d(NetServerHandler.java:134)
@@ -114,13 +114,13 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 0
 	at atomicstryker.ruins.common.RuinsMod$RuinsWorldGenerator.generate(RuinsMod.java:101)
 	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:102)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:259)
-	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1244)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1249)
 	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:153)
 	at net.minecraft.server.management.PlayerInstance.<init>(PlayerInstance.java:36)
 	at net.minecraft.server.management.PlayerManager.func_72690_a(SourceFile:172)
 	at net.minecraft.server.management.PlayerManager.func_72685_d(SourceFile:300)
 	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:276)
-	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:408)
+	at net.minecraft.network.NetServerHandler.func_72498_a(NetServerHandler.java:250)
 	at net.minecraft.network.packet.Packet10Flying.func_73279_a(SourceFile:136)
 	at net.minecraft.network.TcpConnection.func_74428_b(TcpConnection.java:461)
 	at net.minecraft.network.NetServerHandler.func_72570_d(NetServerHandler.java:134)
@@ -2197,11 +2197,14 @@ Loaded Pocket Dimension ruins templates, biomeID 250
 Loading the limbo ruins templates...
 Loaded Limbo ruins templates, biomeID 251
 
-Loading excluded list from: /home/fchoi/servers/hexxit-cary/world/DIM7
-No exclusions found for this world.
+Loading excluded list from: /home/fchoi/darts-servers/hexxit-cary/world
+Excluded from biome Desert: /home/fchoi/servers/hexxit-cary/mods/resources/ruins/desert/Beacon.tml
+Excluded from biome Ocean: /home/fchoi/servers/hexxit-cary/mods/resources/ruins/ocean/PirateShip.tml
+Excluded from biome Mountainous Desert: /home/fchoi/servers/hexxit-cary/mods/resources/ruins/mountainous desert/TallTower.tml
+Excluded from biome Mountainous Desert: /home/fchoi/servers/hexxit-cary/mods/resources/ruins/mountainous desert/Beacon.tml
 
-Loading options from: /home/fchoi/servers/hexxit-cary/world/DIM7
-Ruins is now loading the rotation mappings file /home/fchoi/servers/hexxit-cary/./mods/resources/ruins/rotation_mappings.txt
+Loading options from: /home/fchoi/darts-servers/hexxit-cary/world
+Ruins is now loading the rotation mappings file /home/fchoi/darts-servers/hexxit-cary/./mods/resources/ruins/rotation_mappings.txt
 Now reading mappings for [53;67;108;109;114;128;134;135;136]
 Saving Mapping DIR[1] FROM[0] TO[2]
 Saving Mapping DIR[1] FROM[1] TO[3]
