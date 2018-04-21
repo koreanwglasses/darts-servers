@@ -3328,3 +3328,11 @@ java.lang.NoSuchFieldError: field_77791_bV
 2018-04-21 16:29:25 [INFO] Stopping server
 2018-04-21 16:29:25 [INFO] Saving players
 2018-04-21 16:29:25 [INFO] Saving worlds
+2018-04-21 16:43:42 [INFO] Starting minecraft server version 1.5.2
+2018-04-21 16:43:48 [INFO] Loading properties
+2018-04-21 16:43:48 [INFO] Default game type: SURVIVAL
+2018-04-21 16:43:48 [INFO] Generating keypair
+2018-04-21 16:43:48 [INFO] Starting Minecraft server on *:25565
+2018-04-21 16:43:50 [INFO] Preparing level "world"
+2018-04-21 16:43:51 [INFO] Preparing start region for level 0
+2018-04-21 16:43:51 [INFO] Done (1.269s)! For help, type "help" or "?"
