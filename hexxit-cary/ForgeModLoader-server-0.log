@@ -4734,3 +4734,47 @@
 
 2018-04-21 16:44:42 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: first encounter (5 occurences).
 
+2018-04-21 16:45:32 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 10 times.
+
+2018-04-21 16:45:32 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 10 times.
+
+2018-04-21 16:46:22 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 15 times.
+
+2018-04-21 16:46:22 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 15 times.
+
+2018-04-21 16:47:12 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 20 times.
+
+2018-04-21 16:47:12 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 20 times.
+
+2018-04-21 16:48:02 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 25 times.
+
+2018-04-21 16:48:02 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 25 times.
+
+2018-04-21 16:48:52 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 30 times.
+
+2018-04-21 16:48:52 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 30 times.
+
+2018-04-21 16:49:42 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 35 times.
+
+2018-04-21 16:49:42 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 35 times.
+
+2018-04-21 16:50:32 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 40 times.
+
+2018-04-21 16:50:32 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 40 times.
+
+2018-04-21 16:51:22 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 45 times.
+
+2018-04-21 16:51:22 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 45 times.
+
+2018-04-21 16:52:12 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 50 times.
+
+2018-04-21 16:52:12 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 50 times.
+
+2018-04-21 16:53:02 [FINE] [ForgeModLoader] The world 57348129 (world) may have leaked: seen 55 times.
+
+2018-04-21 16:53:02 [FINE] [ForgeModLoader] The world 14b272e9 (world) may have leaked: seen 55 times.
+
+2018-04-21 20:16:08 [INFO] [STDOUT] Room count! TStairs = 5, TCorr = 5, Dead End = 8, TRoom = 1, Boss = 1 
+2018-04-21 20:35:04 [INFO] [STDOUT] Room count! TStairs = 4, TCorr = 10, Dead End = 7, TRoom = 1, Boss = 1 
+2018-04-22 13:55:50 [INFO] [Minecraft-Server] Saving...
+2018-04-22 13:55:50 [INFO] [Minecraft-Server] Saved the world
