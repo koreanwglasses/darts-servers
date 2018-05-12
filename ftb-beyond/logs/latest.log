@@ -1,221 +1,610 @@
-[00:00:28] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[00:11:08] [Server thread/WARN]: variouspotatoes moved wrongly!
-[00:13:34] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[00:13:38] [Server thread/INFO]: Server Backup started!
-[00:13:40] [Thread-71/INFO]: Server backup done in 00:00:02! (40.7MB | 444.9MB)
-[00:21:40] [Server thread/WARN]: variouspotatoes moved wrongly!
-[00:21:50] [Server thread/FATAL]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: Stack can not be null!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_162]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_162]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_162]
-Caused by: java.lang.IllegalArgumentException: Stack can not be null!
-	at net.minecraftforge.oredict.OreDictionary.getOreIDs(OreDictionary.java:434) ~[OreDictionary.class:?]
-	at team.chisel.common.carving.Carving.getOreGroup(Carving.java:183) ~[Carving.class:?]
-	at team.chisel.common.carving.Carving.getGroup(Carving.java:170) ~[Carving.class:?]
-	at team.chisel.common.item.ChiselController.onPlayerInteract(ChiselController.java:52) ~[ChiselController.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_256_ChiselController_onPlayerInteract_LeftClickBlock.invoke(.dynamic) ~[?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185) ~[EventBus.class:?]
-	at net.minecraftforge.common.ForgeHooks.onLeftClickBlock(ForgeHooks.java:1019) ~[ForgeHooks.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_180784_a(PlayerInteractionManager.java:145) ~[lv.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.func_147345_a(NetHandlerPlayServer.java:631) ~[me.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.func_148833_a(SourceFile:40) ~[ja.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.func_148833_a(SourceFile:10) ~[ja.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[fl$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_162]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_162]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:45) ~[h.class:?]
-	... 5 more
-[00:22:20] [Server thread/INFO]: Sir_Jhaeros lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:22:20] [Server thread/INFO]: Sir_Jhaeros left the game
-[00:36:34] [User Authenticator #4/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
-[00:36:37] [Server thread/INFO]: Sir_Jhaeros[/129.161.241.240:62407] logged in with entity id 253165 at (748.9794016227692, 71.0, 596.9846653376319)
-[00:36:37] [Server thread/INFO]: Sir_Jhaeros joined the game
-[00:37:07] [Server thread/INFO]: Sir_Jhaeros lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:37:07] [Server thread/INFO]: Sir_Jhaeros left the game
-[00:38:01] [User Authenticator #5/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
-[00:38:05] [Server thread/INFO]: Sir_Jhaeros[/129.161.241.240:62453] logged in with entity id 254574 at (748.9794016227692, 71.0, 596.9846653376319)
-[00:38:05] [Server thread/INFO]: Sir_Jhaeros joined the game
-[00:43:00] [Server thread/WARN]: variouspotatoes moved wrongly!
-[00:43:00] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[00:59:24] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[01:15:53] [Server thread/WARN]: variouspotatoes moved wrongly!
-[01:22:13] [User Authenticator #6/INFO]: UUID of player KoreanwGlasses is 9ed909d8-ac8e-4615-9191-52a800ccf83f
-[01:22:15] [Server thread/INFO]: KoreanwGlasses[/129.161.198.243:56361] logged in with entity id 304551 at (292.2216964338125, 62.07326432466507, 2557.477653298909)
-[01:22:15] [Server thread/INFO]: KoreanwGlasses joined the game
-[01:24:36] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 0.1813628780223553,0.0,-10.27908871777845
-[01:24:36] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 0.1779925944305205,0.0,-10.676738844916144
-[01:24:36] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 0.17910513336062195,0.0,-11.074408522878002
-[01:24:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4126ms behind, skipping 82 tick(s)
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.668533913965973,0.0,-7.016278305017295
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.965876512966759,0.0,-7.2837693314472745
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 8.26328459691564,0.0,-7.551194102555655
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 8.56075161731627,0.0,-7.818559243875825
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 8.85827423793387,0.0,-8.085867861090719
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 9.15584689874538,0.0,-8.353125606612139
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 9.453464595730225,0.0,-8.620337567610477
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 9.751122825270045,0.0,-8.887508322539361
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 10.048820093382744,0.0,-9.15463913470876
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 10.346552496210109,0.0,-9.421733998395666
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 10.644316520279858,0.0,-9.688796508449286
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 10.94210900346701,0.0,-9.955829900233766
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 11.239457094883335,0.0,-10.223353062497154
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 11.53548720297772,0.0,-10.492274987756446
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 11.829479245354719,0.0,-10.76329045655757
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 12.120849079445122,0.0,-11.03691955613931
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 12.409133256353812,0.0,-11.313539125194438
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 12.693973632255734,0.0,-11.59340984902201
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 12.975105163368482,0.0,-11.876697147117738
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 13.252340922328585,0.0,-12.163491506823902
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 13.525563861864782,0.0,-12.453821322337717
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 13.794712664916403,0.0,-12.747668461956891
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 14.059774661005974,0.0,-13.044977167501202
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 14.32077596223985,0.0,-13.34566388918438
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 14.577778618817263,0.0,-13.649621458034744
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 14.830868280101072,0.0,-13.956728969174492
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 15.080152451236302,0.0,-14.266854049480116
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 15.325755606736095,0.0,-14.579856843080051
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 15.567814666049003,0.0,-14.895593423209903
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 15.80647481539927,0.0,-15.213918725050917
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 16.041885658035653,0.0,-15.534689047445227
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 16.274204276164767,0.0,-15.857760284852702
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 16.503584776810897,0.0,-16.182994140595383
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 16.73018200728842,0.0,-16.510255787633923
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 16.954148286736256,0.0,-16.83941564874476
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 17.175633737166436,0.0,-17.17034900564886
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 17.39478325472396,0.0,-17.502937547125384
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 17.611740416699604,0.0,-17.837066921539645
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 17.826640991712054,0.0,-18.172630218912218
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 18.039002003693838,0.0,-18.509863285190477
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 18.247829919183687,0.0,-18.849242292462804
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 18.45233802526468,0.0,-19.191093107969664
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 18.651918513922396,0.0,-19.5356238595341
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 18.846115483215726,0.0,-19.882951800657793
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 19.034606384591314,0.0,-20.23312267975507
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 19.217180794582816,0.0,-20.586128116587133
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 19.393720491639556,0.0,-20.941919806812166
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 19.564188240108365,0.0,-21.300418826661826
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 19.72860996211506,0.0,-21.661525489812902
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 19.887069393154434,0.0,-22.025124221337137
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.039688258270246,0.0,-22.39109151308321
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.186623015129044,0.0,-22.7592984678854
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.328058104364402,0.0,-23.129613804606834
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.46419603038703,0.0,-23.501907110297907
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.59525206720366,0.0,-23.876050563867466
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.721453182622724,0.0,-24.25191949273585
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 20.843029526326802,0.0,-24.6293943043338
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 13.588950153011183,0.0,-18.25964683807979
-[01:24:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 13.701975363142708,0.0,-18.639995683189227
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.1636169558464644,0.0,-9.875222643383495
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.2360893235125445,0.0,-10.263965112107144
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.30680786168449,0.0,-10.653454309035624
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.375830172247163,0.0,-11.04363171418936
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.443215652715537,0.0,-11.434443299857321
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.509032931630827,0.0,-11.825838153772565
-[01:24:59] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.5733513528502954,0.0,-12.217769251627487
-[01:25:41] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.6128675898733604,0.0,-10.051926107477357
-[01:25:41] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.7274031113552155,0.0,-10.435010911272002
-[01:25:41] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.8424153313148395,0.0,-10.817966656664339
-[01:25:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2770ms behind, skipping 55 tick(s)
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 5.150279078108838,0.0,-8.957945038343496
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 5.379775899579386,0.0,-9.2845025487145
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 5.61037527897372,0.0,-9.610365048398762
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 5.841994527621296,0.0,-9.935581273713296
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.074553090167569,0.0,-10.26019968435071
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.307978455619491,0.0,-10.584263879131868
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.5422053510466185,0.0,-10.907813082093298
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.777168908298336,0.0,-11.230887214227096
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.012813795190823,0.0,-11.553519879843861
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.249084097695913,0.0,-11.875745953358319
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.485929489464411,0.0,-12.19759681429241
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.723304673057783,0.0,-12.519100700489616
-[01:25:52] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.961165826044521,0.0,-12.84028534313893
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.2495504152377634,0.0,-8.312821742365259
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.4899192440516345,0.0,-8.632544632029749
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.730288105814111,0.0,-8.952267499289292
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 6.970656997230208,0.0,-9.271990346384428
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.2110259153346306,0.0,-9.591713175331506
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.451394857458581,0.0,-9.911435987945197
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.69176382119997,0.0,-10.231158785858952
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 7.932132804397156,0.0,-10.550881570542742
-[01:25:57] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 8.172501805104616,0.0,-10.870604343319656
-[01:26:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2737ms behind, skipping 54 tick(s)
-[01:26:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2350ms behind, skipping 47 tick(s)
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.2562459692367156,0.0,-10.323845964946031
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.3045631218997187,0.0,-10.720916963597801
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.3528802745627218,0.0,-11.117987962249572
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.4011974272257248,0.0,-11.515058960901342
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.449514579888728,0.0,-11.912129959553113
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.497831732551731,0.0,-12.309200958204883
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.546148885214734,0.0,-12.706271956856654
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.594466037877737,0.0,-13.103342955508424
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.6427831905407402,0.0,-13.500413954160194
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.6911003432037433,0.0,-13.897484952811965
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.7394174958667463,0.0,-14.294555951463735
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.7877346485297494,0.0,-14.691626950115506
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.8360518011927525,0.0,-15.088697948767276
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.8843689538557555,0.0,-15.485768947419047
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.9326861065187586,0.0,-15.882839946070817
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.9810032591817617,0.0,-16.279910944722587
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.0293204118447647,0.0,-16.676981943374358
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.077637564507768,0.0,-17.074052942026128
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.125954717170771,0.0,-17.4711239406779
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.174271869833774,0.0,-17.86819493932967
-[01:26:22] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 2.222589022496777,0.0,-18.26526593798144
-[01:27:13] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.2562459692380799,0.0,-10.323845964946031
-[01:27:13] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.304563121901083,0.0,-10.720916963597801
-[01:27:13] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.352880274564086,0.0,-11.117987962249572
-[01:27:13] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.401197427227089,0.0,-11.515058960901342
-[01:27:13] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.4495145798900921,0.0,-11.912129959553113
-[01:27:13] [Server thread/WARN]: Boat (vehicle of KoreanwGlasses) moved too quickly! 1.4978317325530952,0.0,-12.309200958204883
-[01:27:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2298ms behind, skipping 45 tick(s)
-[01:27:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7327ms behind, skipping 146 tick(s)
-[01:28:24] [Server thread/WARN]: KoreanwGlasses moved wrongly!
-[01:33:09] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[01:37:59] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[01:38:23] [Server thread/WARN]: Tried to over-fill a container
-[01:40:20] [Server thread/WARN]: variouspotatoes moved wrongly!
-[01:40:24] [Server thread/INFO]: variouspotatoes was slain by Cave Spider
-[01:43:48] [Server thread/WARN]: KoreanwGlasses moved wrongly!
-[01:43:48] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[01:47:33] [Server thread/WARN]: Tried to over-fill a container
-[01:55:05] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[01:55:05] [Server thread/WARN]: variouspotatoes moved wrongly!
-[02:00:33] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[02:09:15] [Server thread/INFO]: variouspotatoes was incinerated by Ancient Golem.
-[02:13:38] [Server thread/INFO]: Server Backup started!
-[02:13:41] [Thread-96/INFO]: Server backup done in 00:00:02! (48.5MB | 459.9MB)
-[02:14:02] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[02:14:43] [Server thread/INFO]: Sir_Jhaeros was killed by Witch using magic
-[02:15:36] [Server thread/INFO]: Sir_Jhaeros got revenge on Witch
-[02:25:34] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[02:36:46] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[02:43:22] [Server thread/INFO]: Sir_Jhaeros lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[02:43:22] [Server thread/INFO]: Sir_Jhaeros left the game
-[02:43:50] [User Authenticator #7/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
-[02:43:53] [Server thread/INFO]: Sir_Jhaeros[/129.161.241.240:56881] logged in with entity id 422525 at (778.8639817913454, 70.0, 604.3980947628594)
-[02:43:53] [Server thread/INFO]: Sir_Jhaeros joined the game
-[02:50:07] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
-[03:06:26] [Server thread/WARN]: variouspotatoes moved wrongly!
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 4.317584362762773,0.0,-9.442399102763261
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 4.4968481497664925,0.0,-9.799777469036485
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 4.676556021965325,0.0,-10.156950028820688
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 4.85667378930043,0.0,-10.513932076582705
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 5.0371706807197825,0.0,-10.870737377342493
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 5.218015593636437,0.0,-11.227380077954422
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 5.39918053572319,0.0,-11.583872910587274
-[03:10:23] [Server thread/WARN]: Boat (vehicle of variouspotatoes) moved too quickly! 5.580640313885851,0.0,-11.940227330467337
-[03:13:08] [Server thread/INFO]: Sir_Jhaeros lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[03:13:08] [Server thread/INFO]: Sir_Jhaeros left the game
-[03:14:08] [Server thread/INFO]: KoreanwGlasses lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[03:14:08] [Server thread/INFO]: KoreanwGlasses left the game
-[03:14:20] [Server thread/INFO]: variouspotatoes lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[03:14:20] [Server thread/INFO]: variouspotatoes left the game
-[03:14:27] [Server thread/INFO]: Saving...
-[03:14:28] [Server thread/INFO]: Saved the world
+[01:33:08] [Server thread/INFO]: Server Backup started!
+[01:33:14] [Thread-1551/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[03:33:08] [Server thread/INFO]: Server Backup started!
+[03:33:14] [Thread-1576/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[05:33:08] [Server thread/INFO]: Server Backup started!
+[05:33:14] [Thread-1601/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[07:33:08] [Server thread/INFO]: Server Backup started!
+[07:33:14] [Thread-1626/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[09:33:08] [Server thread/INFO]: Server Backup started!
+[09:33:14] [Thread-1651/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[11:33:08] [Server thread/INFO]: Server Backup started!
+[11:33:14] [Thread-1676/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[13:33:08] [Server thread/INFO]: Server Backup started!
+[13:33:15] [Thread-1701/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[15:06:58] [User Authenticator #26/INFO]: UUID of player AwesomeOutcast is 276b6a57-264f-4241-9a15-46dcfc76a1ef
+[15:06:59] [Server thread/INFO]: AwesomeOutcast[/68.195.143.183:52639] logged in with entity id 1055190 at (1123.675400710064, 64.5, 604.1557611962286)
+[15:06:59] [Server thread/INFO]: AwesomeOutcast joined the game
+[15:33:08] [Server thread/INFO]: Server Backup started!
+[15:33:15] [Thread-1726/INFO]: Server backup done in 00:00:06! (116.1MB | 1.4GB)
+[16:29:50] [User Authenticator #27/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
+[16:29:52] [Server thread/INFO]: Sir_Jhaeros[/129.161.198.105:59892] logged in with entity id 1098659 at (754.3083976584419, 71.0, 601.0224305543984)
+[16:29:52] [Server thread/INFO]: Sir_Jhaeros joined the game
+[16:29:59] [Server thread/INFO]: <AwesomeOutcast> hi
+[16:30:48] [Server thread/INFO]: <Sir_Jhaeros> yo
+[16:30:53] [Server thread/INFO]: <Sir_Jhaeros> does your blood orb work?
+[16:35:31] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 10.565680272729082,1.4775414225833998,0.07618421111953921
+[16:36:06] [Server thread/INFO]: <AwesomeOutcast> you startled me
+[16:36:09] [Server thread/INFO]: <Sir_Jhaeros> lol
+[16:36:14] [Server thread/INFO]: <AwesomeOutcast> yeah blood orb works
+[16:36:19] [Server thread/INFO]: <AwesomeOutcast> not sure what to do with it
+[16:36:23] [Server thread/INFO]: <Sir_Jhaeros> hold on
+[16:36:38] [Server thread/INFO]: <Sir_Jhaeros> did you make a divination sigil?
+[16:36:48] [Server thread/INFO]: <Sir_Jhaeros> that's the first sigil you have to make (and easiest one)
+[16:36:54] [Server thread/INFO]: <AwesomeOutcast> no
+[16:37:00] [Server thread/INFO]: <Sir_Jhaeros> look it up
+[16:38:13] [Server thread/INFO]: <AwesomeOutcast> there's some obsidian to pay you pack for it
+[16:38:23] [Server thread/INFO]: <Sir_Jhaeros> oh it's fine, I can make infinte of it
+[16:38:28] [Server thread/INFO]: <Sir_Jhaeros> i don't need it
+[16:38:31] [Server thread/INFO]: <AwesomeOutcast> oh can i have it back then
+[16:38:34] [Server thread/INFO]: <Sir_Jhaeros> lol yep
+[16:38:34] [Server thread/INFO]: <AwesomeOutcast> ty
+[16:38:42] [Server thread/INFO]: <Sir_Jhaeros> can you get on the discord server voice chat?
+[16:38:59] [Server thread/INFO]: <AwesomeOutcast> not right now, parents in room
+[16:39:09] [Server thread/INFO]: <Sir_Jhaeros> ah ok
+[16:39:21] [Server thread/INFO]: <Sir_Jhaeros> so basically you make arcane ashes
+[16:39:29] [Server thread/INFO]: <Sir_Jhaeros> which is really easy
+[16:39:43] [Server thread/INFO]: <Sir_Jhaeros> and then you right click the ground with it and put redstone in it
+[16:39:48] [Server thread/INFO]: <Sir_Jhaeros> and there's your sigil
+[16:39:58] [Server thread/INFO]: <Sir_Jhaeros> you use it to see how much blood is in your altar or in your blood network
+[16:40:04] [Server thread/INFO]: <AwesomeOutcast> ah
+[16:40:08] [Server thread/INFO]: <Sir_Jhaeros> so you know when you're running low
+[16:40:13] [Server thread/INFO]: <Sir_Jhaeros> and how much you need to do a certain thing
+[16:40:22] [Server thread/INFO]: <AwesomeOutcast> im not gonna start that yet probably
+[16:40:25] [Server thread/INFO]: <Sir_Jhaeros> aight
+[16:40:31] [Server thread/INFO]: <Sir_Jhaeros> btw, have you seen me fly yet?
+[16:41:03] [Server thread/INFO]: <Sir_Jhaeros> also the chickens are so loud lol, that's a lot of em
+[16:41:12] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[16:41:15] [Server thread/INFO]: <AwesomeOutcast> that's the point
+[16:41:21] [Server thread/INFO]: <AwesomeOutcast> generating eggs currently
+[16:41:24] [Server thread/INFO]: <Sir_Jhaeros> ohhhhh
+[16:41:26] [Server thread/INFO]: <Sir_Jhaeros> coolio
+[16:41:32] [Server thread/INFO]: <Sir_Jhaeros> wanna see me fly?
+[16:41:39] [Server thread/INFO]: <AwesomeOutcast> once i have enough egg creating chickens, then i will just have an auto chicken farm
+[16:41:41] [Server thread/INFO]: <AwesomeOutcast> sure
+[16:41:49] [Server thread/INFO]: <AwesomeOutcast> :O
+[16:41:51] [Server thread/INFO]: <Sir_Jhaeros> :)
+[16:41:55] [Server thread/INFO]: <AwesomeOutcast> PogChmp
+[16:41:58] [Server thread/INFO]: <Sir_Jhaeros> i flew here too lol
+[16:42:01] [Server thread/INFO]: <Sir_Jhaeros> no more horsey
+[16:42:01] [Server thread/INFO]: <AwesomeOutcast> PogChamp *
+[16:42:11] [Server thread/INFO]: <AwesomeOutcast> yeah
+[16:42:16] [Server thread/INFO]: <AwesomeOutcast> alas archibald
+[16:42:24] [Server thread/INFO]: <Sir_Jhaeros> he was a good horse
+[16:43:20] [Server thread/INFO]: <Sir_Jhaeros> what's the cover covering?
+[16:43:27] [Server thread/INFO]: <AwesomeOutcast> redstone
+[16:43:31] [Server thread/INFO]: <Sir_Jhaeros> ah ok
+[16:43:46] [Server thread/INFO]: <AwesomeOutcast> the dispenser that is open is the one i need to put the lava bucket in
+[16:44:00] [Server thread/INFO]: <Sir_Jhaeros> whats the lava for? killing the chickens?
+[16:44:05] [Server thread/INFO]: <Sir_Jhaeros> or to power something?
+[16:44:09] [Server thread/INFO]: <AwesomeOutcast> yeah
+[16:44:33] [Server thread/INFO]: <AwesomeOutcast> the lava will burn the chickens that are on the half slabs and then they will drop cooked chicken
+[16:44:53] [Server thread/INFO]: <AwesomeOutcast> right now cooking all this iron
+[16:44:55] [Server thread/INFO]: <Sir_Jhaeros> scuse me there, i thought those blocks were solid and almost died
+[16:44:56] [Server thread/INFO]: <AwesomeOutcast> i have too much
+[16:45:03] [Server thread/INFO]: <AwesomeOutcast> yeah they're not solid
+[16:45:04] [Server thread/INFO]: <Sir_Jhaeros> yeah i have a ton of potatoes
+[16:45:33] [Server thread/INFO]: <Sir_Jhaeros> since the next part of blood magic i need to kill a shit ton of enemies
+[16:45:39] [Server thread/INFO]: <Sir_Jhaeros> i think im going to start botania while im waiting
+[16:45:43] [Server thread/INFO]: <AwesomeOutcast> k
+[16:45:46] [Server thread/INFO]: <AwesomeOutcast> sounds cool
+[16:45:50] [Server thread/INFO]: <Sir_Jhaeros> let me know if you need anything
+[16:45:53] [Server thread/INFO]: <AwesomeOutcast> soon im gonna start RF generation
+[16:45:57] [Server thread/INFO]: <Sir_Jhaeros> oooooh cool
+[16:46:00] [Server thread/INFO]: <AwesomeOutcast> but i want to build a house :/
+[16:46:10] [Server thread/INFO]: <Sir_Jhaeros> why not do both?
+[16:46:30] [Server thread/INFO]: <AwesomeOutcast> because I am bad at house building
+[16:46:39] [Server thread/INFO]: <Sir_Jhaeros> then practice
+[16:46:46] [Server thread/INFO]: <AwesomeOutcast> :|
+[16:46:50] [Server thread/INFO]: <Sir_Jhaeros> maybe in a creative single player world?
+[16:46:50] [Server thread/INFO]: <AwesomeOutcast> that is work
+[16:46:51] [Server thread/INFO]: <Sir_Jhaeros> idk
+[16:47:01] [Server thread/INFO]: <Sir_Jhaeros> look up how people make their houses then
+[16:47:09] [Server thread/INFO]: <Sir_Jhaeros> my house is kinda shit atm, but it's functional
+[16:47:20] [Server thread/INFO]: <AwesomeOutcast> but it looks nice
+[16:47:30] [Server thread/INFO]: <Sir_Jhaeros> the second floor doesn't match and it's a block outward
+[16:47:37] [Server thread/INFO]: <Sir_Jhaeros> which was accidental
+[16:47:41] [Server thread/INFO]: <Sir_Jhaeros> and im too lazy to fix it
+[16:48:02] [Server thread/INFO]: <AwesomeOutcast> you want some iron?
+[16:48:09] [Server thread/INFO]: <Sir_Jhaeros> i mean sure, thanks
+[16:48:16] [Server thread/INFO]: <Sir_Jhaeros> i think i'll be good on iron for a while tho
+[16:48:36] [Server thread/INFO]: <Sir_Jhaeros> i found a mine shaft yesterday, looking for diamonds
+[16:48:43] [Server thread/INFO]: <Sir_Jhaeros> tons of EVERY OTHER ore
+[16:48:46] [Server thread/INFO]: <Sir_Jhaeros> but no diamonds
+[16:48:55] [Server thread/INFO]: <AwesomeOutcast> go mining
+[16:49:14] [Server thread/INFO]: <Sir_Jhaeros> yeah yeah, i'll do botania first
+[16:49:20] [Server thread/INFO]: <AwesomeOutcast> how do you think i have so many resources?
+[16:49:29] [Server thread/INFO]: <Sir_Jhaeros> how many diamonds do you have?
+[16:49:37] [Server thread/INFO]: <AwesomeOutcast> right now ~20
+[16:49:41] [Server thread/INFO]: <Sir_Jhaeros> oh ok
+[16:49:46] [Server thread/INFO]: <Sir_Jhaeros> i still have a lot of resources
+[16:49:49] [Server thread/INFO]: <Sir_Jhaeros> juts not diamonds
+[16:49:54] [Server thread/INFO]: <Sir_Jhaeros> hence how i got so far in blood magic
+[16:50:06] [Server thread/INFO]: <Sir_Jhaeros> i have gone mining, it's just boring to do
+[16:50:51] [Server thread/INFO]: <Sir_Jhaeros> have you gone to the nether?
+[16:50:55] [Server thread/INFO]: <AwesomeOutcast> yeah
+[16:51:04] [Server thread/INFO]: <AwesomeOutcast> probably easier for you though since you can fly
+[16:51:07] [Server thread/INFO]: <Sir_Jhaeros> besides killling enemies, i also need blaze rods
+[16:51:11] [Server thread/INFO]: <Sir_Jhaeros> have you found any?
+[16:51:16] [Server thread/INFO]: <Sir_Jhaeros> and yeah it's fun flying in the nether
+[16:51:19] [Server thread/INFO]: <AwesomeOutcast> i was trying to find fortress
+[16:51:36] [Server thread/INFO]: <AwesomeOutcast> but it's not easy
+[16:51:44] [Server thread/INFO]: <Sir_Jhaeros> i guess it's my job to find it, since i can move around the easiest
+[16:51:48] [Server thread/INFO]: <AwesomeOutcast> yeah
+[16:51:53] [Server thread/INFO]: <Sir_Jhaeros> i'll probably do that sometime today
+[16:51:54] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[16:52:00] [Server thread/INFO]: <Sir_Jhaeros> but imma start botania first
+[16:52:09] [Server thread/INFO]: <Sir_Jhaeros> i'll be back at my base
+[16:52:48] [Server thread/INFO]: <AwesomeOutcast> when you do go to look for a fortress, take enough obsidian to make a portal and
+[16:52:53] [Server thread/INFO]: <AwesomeOutcast> portal your way out
+[16:52:59] [Server thread/INFO]: <AwesomeOutcast> then mark on world map
+[16:53:02] [Server thread/INFO]: <Sir_Jhaeros> ohhh good idea
+[16:53:09] [Server thread/INFO]: <Sir_Jhaeros> yeah i have plenty of obsidian
+[16:53:41] [Server thread/INFO]: <Sir_Jhaeros> i've been lagging a lot, so imma rejoin the server
+[16:53:45] [Server thread/INFO]: <Sir_Jhaeros> brb
+[16:53:46] [Server thread/INFO]: Sir_Jhaeros lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[16:53:46] [Server thread/INFO]: Sir_Jhaeros left the game
+[16:53:46] [Server thread/INFO]: <AwesomeOutcast> k
+[17:05:54] [User Authenticator #28/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
+[17:05:57] [Server thread/INFO]: Sir_Jhaeros[/129.161.198.105:60859] logged in with entity id 1129419 at (756.3610813123039, 71.0, 603.6553403836953)
+[17:05:57] [Server thread/INFO]: Sir_Jhaeros joined the game
+[17:06:27] [Server thread/INFO]: Sir_Jhaeros lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:06:27] [Server thread/INFO]: Sir_Jhaeros left the game
+[17:06:58] [User Authenticator #29/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
+[17:07:00] [Server thread/INFO]: Sir_Jhaeros[/129.161.198.105:60929] logged in with entity id 1130652 at (756.3610813123039, 71.0, 603.6553403836953)
+[17:07:00] [Server thread/INFO]: Sir_Jhaeros joined the game
+[17:08:44] [Server thread/INFO]: <Sir_Jhaeros> mitch, did you give me iron ore?
+[17:09:02] [Server thread/INFO]: <Sir_Jhaeros> did you mean to give me*
+[17:15:22] [Server thread/WARN]: AwesomeOutcast moved wrongly!
+[17:15:26] [Server thread/INFO]: <AwesomeOutcast> probably not
+[17:15:36] [Server thread/INFO]: <Sir_Jhaeros> do you want it back?
+[17:15:39] [Server thread/INFO]: <AwesomeOutcast> sure
+[17:15:50] [Server thread/INFO]: <Sir_Jhaeros> i'm heading over
+[17:16:21] [Server thread/INFO]: <AwesomeOutcast> thx
+[17:16:25] [Server thread/INFO]: <Sir_Jhaeros> np
+[17:16:47] [Server thread/INFO]: <AwesomeOutcast> do you want a cobalt & ardite pick?
+[17:17:01] [Server thread/INFO]: <Sir_Jhaeros> is it diamond level?
+[17:17:08] [Server thread/INFO]: <AwesomeOutcast> it's above diamond level
+[17:17:11] [Server thread/INFO]: <Sir_Jhaeros> ooh sure
+[17:17:32] [Server thread/INFO]: <AwesomeOutcast> let me make it
+[17:17:36] [Server thread/INFO]: <AwesomeOutcast> um
+[17:17:50] [Server thread/INFO]: <AwesomeOutcast> this will probably be a bit, i'll let you know when it's ready
+[17:17:53] [Server thread/INFO]: <Sir_Jhaeros> aight
+[17:18:17] [Server thread/INFO]: <AwesomeOutcast> btw if you haven't already, make a bakeware from harvest craft
+[17:18:23] [Server thread/INFO]: <Sir_Jhaeros> a bakeware?
+[17:18:25] [Server thread/INFO]: <Sir_Jhaeros> what does that do?
+[17:18:26] [Server thread/INFO]: <AwesomeOutcast> put bread in it, and you get toast
+[17:18:29] [Server thread/INFO]: <AwesomeOutcast> better bread
+[17:18:32] [Server thread/INFO]: <Sir_Jhaeros> ooh nice
+[17:18:41] [Server thread/INFO]: <Sir_Jhaeros> i don't know if i have bread, but i have a ton of wheat
+[17:19:08] [Server thread/INFO]: <AwesomeOutcast> yeah if you make flour, then bake it in furnace, then use that bread
+[17:19:11] [Server thread/INFO]: <AwesomeOutcast> easy food
+[17:19:16] [Server thread/INFO]: <AwesomeOutcast> plus high saturation
+[17:19:21] [Server thread/INFO]: <Sir_Jhaeros> awesome
+[17:19:26] [Server thread/INFO]: <Sir_Jhaeros> thanks
+[17:19:57] [Server thread/INFO]: <Sir_Jhaeros> welp, don't have clay to make bricks
+[17:20:08] [Server thread/INFO]: <AwesomeOutcast> also if you ever go mining, don't worry about bringing extra sticks.
+[17:20:20] [Server thread/INFO]: <Sir_Jhaeros> ?
+[17:20:22] [Server thread/INFO]: <AwesomeOutcast> if you can find diorite/andesite/whatever the red stone is
+[17:20:27] [Server thread/INFO]: <Sir_Jhaeros> yeah i have those
+[17:20:29] [Server thread/INFO]: <AwesomeOutcast> you can make stone rods and stone torches
+[17:20:35] [Server thread/INFO]: <Sir_Jhaeros> ohhhhhhhhhhhh
+[17:20:40] [Server thread/INFO]: <Sir_Jhaeros> that's so cool
+[17:24:34] [Server thread/INFO]: Sir_Jhaeros has just earned the achievement [A Realistical Logical Ideologist]
+[17:24:41] [Server thread/INFO]: <AwesomeOutcast> the pick should be ready soon
+[17:24:44] [Server thread/INFO]: <AwesomeOutcast> like 1 min
+[17:24:45] [Server thread/INFO]: <Sir_Jhaeros> aight
+[17:24:50] [Server thread/INFO]: <Sir_Jhaeros> i just started botania
+[17:24:59] [Server thread/INFO]: <AwesomeOutcast> i guesed that was the achievement
+[17:25:12] [Server thread/INFO]: <Sir_Jhaeros> yeah lol
+[17:25:53] [Server thread/INFO]: <AwesomeOutcast> ready
+[17:25:58] [Server thread/INFO]: <Sir_Jhaeros> i'll head over
+[17:26:10] [Server thread/INFO]: <Sir_Jhaeros> after i sleep
+[17:26:13] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[17:26:47] [Server thread/INFO]: <Sir_Jhaeros> thanks
+[17:27:28] [Server thread/INFO]: Sir_Jhaeros has shared a Lexica Botania entry, click to see it: [Welcome To Botania]
+[17:27:56] [Server thread/INFO]: <AwesomeOutcast> chicken farm up and running
+[17:28:00] [Server thread/INFO]: <Sir_Jhaeros> nice
+[17:28:16] [Server thread/INFO]: <Sir_Jhaeros> tell people in discord, cuz we only have a pig, sheep, and cow farm near us
+[17:31:14] [Server thread/INFO]: <AwesomeOutcast> chickens are quiet now too
+[17:31:23] [Server thread/INFO]: <Sir_Jhaeros> rip chickens
+[17:31:30] [Server thread/INFO]: <AwesomeOutcast> yes and no
+[17:31:38] [Server thread/INFO]: <AwesomeOutcast> the ones in the front are dead
+[17:31:46] [Server thread/INFO]: <AwesomeOutcast> but they're now muffled
+[17:31:54] [Server thread/INFO]: <AwesomeOutcast> i used a muffler block from extra utilities
+[17:31:56] [Server thread/INFO]: <Sir_Jhaeros> geez
+[17:31:57] [Server thread/INFO]: <Sir_Jhaeros> brutal
+[17:32:02] [Server thread/INFO]: <Sir_Jhaeros> oh yeah i know that block
+[17:32:06] [Server thread/INFO]: <Sir_Jhaeros> those are cool
+[17:33:08] [Server thread/INFO]: Server Backup started!
+[17:33:15] [Thread-1751/INFO]: Server backup done in 00:00:06! (116.4MB | 1.4GB)
+[17:33:58] [Server thread/INFO]: <AwesomeOutcast> brb
+[17:34:00] [Server thread/INFO]: <Sir_Jhaeros> ok
+[17:40:25] [Server thread/WARN]: AwesomeOutcast moved wrongly!
+[17:46:49] [Server thread/INFO]: <Sir_Jhaeros> you back?
+[17:46:56] [Server thread/INFO]: <AwesomeOutcast> yeah
+[17:47:05] [Server thread/INFO]: <Sir_Jhaeros> you have any red/yellow flowers?
+[17:47:08] [Server thread/INFO]: <AwesomeOutcast> but i am off exploring
+[17:47:12] [Server thread/INFO]: <Sir_Jhaeros> the ones you find in vanilla mc
+[17:47:22] [Server thread/INFO]: <AwesomeOutcast> not sure
+[17:47:57] [Server thread/INFO]: <Sir_Jhaeros> if you find any, could i have them?
+[17:47:57] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[17:48:56] [Server thread/INFO]: <AwesomeOutcast> you're welcome to check my natural stuffs chest or flower box
+[17:49:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2259ms behind, skipping 45 tick(s)
+[17:49:15] [Server thread/INFO]: <Sir_Jhaeros> they're not too hard to find, i just thought I'd ask
+[17:49:26] [Server thread/INFO]: <Sir_Jhaeros> btw im gonna leave for dinner at 6
+[17:49:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10267ms behind, skipping 205 tick(s)
+[17:49:40] [Server thread/INFO]: <AwesomeOutcast> k
+[17:49:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5751ms behind, skipping 115 tick(s)
+[17:50:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9171ms behind, skipping 183 tick(s)
+[17:50:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6401ms behind, skipping 128 tick(s)
+[17:50:29] [Server thread/INFO]: <Sir_Jhaeros> also if you ever see any flowers that say "mystical" blah blah, could you get those for me?
+[17:50:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5849ms behind, skipping 116 tick(s)
+[17:51:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3088ms behind, skipping 61 tick(s)
+[17:51:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6702ms behind, skipping 134 tick(s)
+[17:52:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6625ms behind, skipping 132 tick(s)
+[17:52:17] [Server thread/INFO]: <AwesomeOutcast> sure
+[17:52:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6535ms behind, skipping 130 tick(s)
+[17:52:23] [Server thread/INFO]: <Sir_Jhaeros> thanks
+[17:52:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2134ms behind, skipping 42 tick(s)
+[17:53:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2136ms behind, skipping 42 tick(s)
+[17:53:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7570ms behind, skipping 151 tick(s)
+[17:53:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6081ms behind, skipping 121 tick(s)
+[17:54:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13310ms behind, skipping 266 tick(s)
+[17:54:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6804ms behind, skipping 136 tick(s)
+[17:54:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8567ms behind, skipping 171 tick(s)
+[17:55:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7575ms behind, skipping 151 tick(s)
+[17:55:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8063ms behind, skipping 161 tick(s)
+[17:55:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4542ms behind, skipping 90 tick(s)
+[17:56:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8835ms behind, skipping 176 tick(s)
+[17:57:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2182ms behind, skipping 43 tick(s)
+[17:57:20] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 1.9880791312268684,1.2607254013695552,10.035579667444097
+[17:57:33] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.217751802298608,4.350648964572457,1.6833153549669078
+[17:57:36] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 4.12380676191674,-0.17980226754680473,9.507461540059865
+[17:57:37] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 1.8825022863034064,-0.1274540534017632,10.700233691672679
+[17:57:47] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.091438933071458,-0.271207914191109,-5.497200450049604
+[17:57:57] [Server thread/INFO]: <Sir_Jhaeros> which chest is your natural stuff chest?
+[17:58:08] [Server thread/INFO]: <AwesomeOutcast> one of the two to the left of the enterance
+[17:58:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 30660ms behind, skipping 613 tick(s)
+[17:58:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2933ms behind, skipping 58 tick(s)
+[17:58:43] [Server thread/INFO]: <Sir_Jhaeros> nice thanks
+[17:58:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 16619ms behind, skipping 332 tick(s)
+[17:58:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3666ms behind, skipping 73 tick(s)
+[17:59:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10564ms behind, skipping 211 tick(s)
+[17:59:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4087ms behind, skipping 81 tick(s)
+[18:01:07] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[18:01:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3613ms behind, skipping 72 tick(s)
+[18:02:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 21441ms behind, skipping 428 tick(s)
+[18:02:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2576ms behind, skipping 51 tick(s)
+[18:02:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2854ms behind, skipping 57 tick(s)
+[18:02:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2248ms behind, skipping 44 tick(s)
+[18:02:50] [Server thread/INFO]: <Sir_Jhaeros> imma go eat now
+[18:02:55] [Server thread/INFO]: <AwesomeOutcast> k
+[18:02:59] [Server thread/INFO]: <Sir_Jhaeros> i'll try to get back on later
+[18:03:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8477ms behind, skipping 169 tick(s)
+[18:03:10] [Server thread/INFO]: <Sir_Jhaeros> have fun
+[18:03:13] [Server thread/INFO]: <AwesomeOutcast> will do
+[18:03:15] [Server thread/INFO]: Sir_Jhaeros lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[18:03:15] [Server thread/INFO]: Sir_Jhaeros left the game
+[18:03:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5516ms behind, skipping 110 tick(s)
+[18:03:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6026ms behind, skipping 120 tick(s)
+[18:04:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9094ms behind, skipping 181 tick(s)
+[18:04:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6266ms behind, skipping 125 tick(s)
+[18:04:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2055ms behind, skipping 41 tick(s)
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 8.440864839917595,0.0,5.37435458783807
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 8.74807609864547,0.0,5.620680660940252
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 9.046208570111503,0.0,5.876013514606029
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 9.334257060716482,0.0,6.14060899066294
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 9.61145431289151,0.0,6.414489389869232
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 9.877246596815894,0.0,6.697503356222796
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 10.131919203075086,0.0,6.989107677635502
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 10.37645313525718,0.0,7.288497931152278
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 10.611741745076415,0.0,7.594945293255478
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 10.838603093398888,0.0,7.907787638814625
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 11.057787530552105,0.0,8.226422997906184
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 11.269973836332156,0.0,8.550307936133777
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 11.475783510990368,0.0,8.878948884754664
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 11.675786531128779,0.0,9.211897217443266
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 11.870499391418889,0.0,9.54874763569751
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 12.060394031867418,0.0,9.889132453972934
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 12.245902304460742,0.0,10.232717864462984
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 12.42741642152123,0.0,10.579201979835943
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 12.60529292433148,0.0,10.928311652362709
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 12.779859832105103,0.0,11.279798225323248
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 12.951415925367655,0.0,11.633436488340067
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 13.120230094476938,0.0,11.989023722276443
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 13.28655148678672,0.0,12.346376075479611
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 13.450604329322232,0.0,12.70532530240007
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 13.61259041988069,0.0,13.065721349228625
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 13.77269853182679,0.0,13.42742640337542
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 13.931748163336124,0.0,13.790061180346811
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 14.091049873863085,0.0,14.153024134931684
+[18:05:16] [Server thread/WARN]: Boat (vehicle of AwesomeOutcast) moved too quickly! 14.251651774964557,0.0,14.515789463069495
+[18:05:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 24393ms behind, skipping 487 tick(s)
+[18:05:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2129ms behind, skipping 42 tick(s)
+[18:05:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3810ms behind, skipping 76 tick(s)
+[18:06:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2125ms behind, skipping 42 tick(s)
+[18:06:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2270ms behind, skipping 45 tick(s)
+[18:07:11] [Server thread/WARN]: AwesomeOutcast moved wrongly!
+[18:10:49] [Server thread/INFO]: AwesomeOutcast suffocated in a wall
+[18:12:33] [Server thread/INFO]: AwesomeOutcast lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[18:12:33] [Server thread/INFO]: AwesomeOutcast left the game
+[19:13:15] [User Authenticator #30/INFO]: UUID of player AwesomeOutcast is 276b6a57-264f-4241-9a15-46dcfc76a1ef
+[19:13:17] [Server thread/INFO]: AwesomeOutcast[/68.195.143.183:55820] logged in with entity id 1261983 at (1122.466389600585, 64.0, 603.8241673549204)
+[19:13:17] [Server thread/INFO]: AwesomeOutcast joined the game
+[19:33:08] [Server thread/INFO]: Server Backup started!
+[19:33:16] [Thread-1776/INFO]: Server backup done in 00:00:07! (136.2MB | 1.4GB)
+[19:54:37] [User Authenticator #31/INFO]: UUID of player variouspotatoes is 5bd5eeef-20d2-4ebc-9f2f-9f5013ce2c20
+[19:54:39] [Server thread/INFO]: variouspotatoes[/129.161.240.230:59239] logged in with entity id 1283195 at (769.3122318491617, 68.0, 510.1450280285833)
+[19:54:39] [Server thread/INFO]: variouspotatoes joined the game
+[19:54:47] [Server thread/INFO]: <AwesomeOutcast> hey ryan
+[19:55:15] [Server thread/INFO]: variouspotatoes lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:55:15] [Server thread/INFO]: variouspotatoes left the game
+[19:55:47] [User Authenticator #32/INFO]: UUID of player variouspotatoes is 5bd5eeef-20d2-4ebc-9f2f-9f5013ce2c20
+[19:55:52] [Server thread/INFO]: variouspotatoes[/129.161.240.230:59247] logged in with entity id 1284377 at (769.3122318491617, 68.0, 510.1450280285833)
+[19:55:52] [Server thread/INFO]: variouspotatoes joined the game
+[19:56:28] [Server thread/WARN]: variouspotatoes moved wrongly!
+[20:04:53] [Server thread/INFO]: AwesomeOutcast lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:04:53] [Server thread/INFO]: AwesomeOutcast left the game
+[20:05:08] [User Authenticator #33/INFO]: UUID of player AwesomeOutcast is 276b6a57-264f-4241-9a15-46dcfc76a1ef
+[20:05:09] [Server thread/INFO]: AwesomeOutcast[/68.195.143.183:56245] logged in with entity id 1298411 at (1675.77556538979, 7.9460240866878005, 392.79123895374033)
+[20:05:09] [Server thread/INFO]: AwesomeOutcast joined the game
+[20:07:39] [Server thread/WARN]: variouspotatoes moved wrongly!
+[20:13:27] [User Authenticator #34/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
+[20:13:30] [Server thread/INFO]: Sir_Jhaeros[/129.161.198.105:63066] logged in with entity id 1309697 at (756.0155761893255, 71.0, 603.5872730725672)
+[20:13:30] [Server thread/INFO]: Sir_Jhaeros joined the game
+[20:16:02] [Server thread/INFO]: <AwesomeOutcast> yo justin
+[20:16:11] [Server thread/INFO]: <Sir_Jhaeros> ye
+[20:16:19] [Server thread/INFO]: <Sir_Jhaeros> can you talk now or nah
+[20:17:20] [Server thread/INFO]: <AwesomeOutcast> idk
+[20:17:31] [Server thread/INFO]: <AwesomeOutcast> my dad's in the room, and there's music playing
+[20:18:18] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[20:18:19] [Server thread/INFO]: <Sir_Jhaeros> don't worry abou it then
+[20:19:20] [Server thread/INFO]: <AwesomeOutcast> k
+[20:22:48] [Server thread/INFO]: Sir_Jhaeros has just earned the achievement [Bake Bread]
+[20:23:50] [Server thread/INFO]: <AwesomeOutcast> i need so much lapis -_-
+[20:24:04] [Server thread/INFO]: <Sir_Jhaeros> how much?
+[20:24:36] [Server thread/INFO]: <AwesomeOutcast> 66
+[20:25:14] [Server thread/INFO]: <AwesomeOutcast> hold on
+[20:25:31] [Server thread/INFO]: <AwesomeOutcast> nvm got enough
+[20:25:35] [Server thread/INFO]: <Sir_Jhaeros> ayy nice
+[20:26:07] [Server thread/INFO]: <AwesomeOutcast> now i have fortune 3
+[20:26:12] [Server thread/INFO]: <Sir_Jhaeros> whoa
+[20:26:25] [Server thread/INFO]: <Sir_Jhaeros> do you know how to get looting on a sword besides an enchantment table?
+[20:26:38] [Server thread/INFO]: <AwesomeOutcast> yes
+[20:26:42] [Server thread/INFO]: <AwesomeOutcast> tinker's construct
+[20:26:57] [Server thread/INFO]: <AwesomeOutcast> *smug face*
+[20:27:04] [Server thread/INFO]: <Sir_Jhaeros> wow
+[20:27:07] [Server thread/INFO]: <Sir_Jhaeros> i see how it is
+[20:27:08] [Server thread/INFO]: <AwesomeOutcast> also you can get enchanted book
+[20:27:12] [Server thread/INFO]: <Sir_Jhaeros> oh true
+[20:28:57] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -578.2695663291968,18.0,-533.3917900227507
+[20:30:44] [Server thread/INFO]: <variouspotatoes> mitch how do you get cobalt?
+[20:30:50] [Server thread/INFO]: <AwesomeOutcast> go to the nether
+[20:30:50] [Server thread/INFO]: <variouspotatoes> is it an ore or smth
+[20:31:06] [Server thread/INFO]: <AwesomeOutcast> it's an ore and you need a smeltery to use it
+[20:31:18] [Server thread/INFO]: <AwesomeOutcast> if you want cobalt tools i can make them
+[20:31:30] [Server thread/INFO]: <variouspotatoes> how do you mine it though
+[20:31:39] [Server thread/INFO]: <variouspotatoes> i cant mine it so idk how
+[20:31:41] [Server thread/INFO]: <AwesomeOutcast> obsidian pick
+[20:31:48] [Server thread/INFO]: <variouspotatoes> ohh i have one of those now
+[20:31:49] [Server thread/INFO]: <AwesomeOutcast> made in a smeltery
+[20:31:51] [Server thread/INFO]: <variouspotatoes> sweet
+[20:31:55] [Server thread/INFO]: <variouspotatoes> tyty
+[20:32:04] [Server thread/INFO]: variouspotatoes fell from a high place
+[20:32:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2039ms behind, skipping 40 tick(s)
+[20:33:00] [Server thread/WARN]: variouspotatoes moved too quickly! -578.3116561646893,18.0,-532.4437182106194
+[20:35:03] [Server thread/INFO]: AwesomeOutcast has just earned the achievement [Enchanter]
+[20:35:59] [Server thread/INFO]: AwesomeOutcast has just earned the achievement [Librarian]
+[20:36:08] [Server thread/INFO]: <Sir_Jhaeros> books are for nerrrrrrds
+[20:41:09] [Server thread/INFO]: <variouspotatoes> mitch it says i need a cobalt pick to mine the cobalt ore
+[20:41:15] [Server thread/INFO]: <variouspotatoes> or is it something different
+[20:41:21] [Server thread/INFO]: <AwesomeOutcast> yeah you need an obsidian pick head
+[20:41:31] [Server thread/INFO]: <variouspotatoes> oh wait im
+[20:41:35] [Server thread/WARN]: Sir_Jhaeros moved wrongly!
+[20:41:40] [Server thread/INFO]: <variouspotatoes> im dumb this obsidian pick is from a different mod
+[20:42:20] [Server thread/INFO]: variouspotatoes has just earned the achievement [The Start of something BIG!]
+[20:42:35] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.176578050227562,0.03230136776195991,-7.99212094814726
+[20:44:54] [Server thread/INFO]: <AwesomeOutcast> i just realized i didn't even need an enchanting table...
+[20:45:03] [Server thread/INFO]: <variouspotatoes> hey mitchhh
+[20:45:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2962ms behind, skipping 59 tick(s)
+[20:45:09] [Server thread/INFO]: <AwesomeOutcast> yeahhhhh
+[20:45:11] [Server thread/INFO]: <variouspotatoes> can you make me a cobalt pickaxee
+[20:45:15] [Server thread/INFO]: <AwesomeOutcast> sure
+[20:45:17] [Server thread/INFO]: <variouspotatoes> i have... potatos
+[20:45:20] [Server thread/INFO]: <AwesomeOutcast> ummm
+[20:45:21] [Server thread/INFO]: <variouspotatoes> i can offer. potato
+[20:45:23] [Server thread/INFO]: <AwesomeOutcast> i do to
+[20:45:26] [Server thread/INFO]: <variouspotatoes> fuck
+[20:45:27] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 8.525047262441717,0.22915746076715493,-5.98741177101266
+[20:45:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2829ms behind, skipping 56 tick(s)
+[20:45:35] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 10.208939840921403,-0.7066794243891579,-2.270379986095236
+[20:45:37] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 0.4847312368924577,1.2113697448572651,-10.33774348535502
+[20:45:37] [Server thread/INFO]: <AwesomeOutcast> i guess that's your trading signature though
+[20:45:37] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -3.4634117396722104,0.8694679453940566,-10.20350773031555
+[20:45:39] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.773917592477801,-2.1126328277716127,-10.395036880970281
+[20:45:39] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 1.7664999394106644,-1.545830241784948,-10.587231481636081
+[20:45:40] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 6.592881080361735,-1.2365730921004214,-8.405006202839616
+[20:45:41] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.050103041440138,-0.9572419310493672,-6.022987545145327
+[20:45:47] [Server thread/INFO]: <AwesomeOutcast> cuz you do have various potato
+[20:45:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6075ms behind, skipping 121 tick(s)
+[20:45:51] [Server thread/INFO]: <AwesomeOutcast> hehe
+[20:45:52] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -4.8699626080830285,7.4088491025956245,-5.6109142285991425
+[20:45:53] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -5.729145639814874,6.5513233398836945,-5.569408577589627
+[20:45:53] [Server thread/INFO]: <variouspotatoes> yess
+[20:45:54] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.189543120646363,3.6298903566900975,-7.098053589538779
+[20:45:55] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -8.585134070171307,1.5109723789026361,-5.695549575327448
+[20:45:58] [Server thread/INFO]: <variouspotatoes> i have... 1 type of potato
+[20:46:01] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 5.653581036720425,0.32458207274025597,-8.655649040392063
+[20:46:02] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 2.1721280999820465,6.225312497694816,-8.176740524230809
+[20:46:04] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 1.0247320110651117,4.848587243429051,-9.885549132914434
+[20:46:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4938ms behind, skipping 98 tick(s)
+[20:46:07] [Server thread/INFO]: <AwesomeOutcast> i can give you a pick
+[20:46:07] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.160822325314939,2.563896222150561,-10.644784982347232
+[20:46:09] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.433246741649782,-3.126898038576755,-10.140654590912504
+[20:46:12] [Server thread/INFO]: <variouspotatoes> tytytyty
+[20:46:20] [Server thread/INFO]: <variouspotatoes> if you need anything in return tell me
+[20:48:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2755ms behind, skipping 55 tick(s)
+[20:48:28] [Server thread/INFO]: <AwesomeOutcast> my only request is that you come pick it up
+[20:48:36] [Server thread/INFO]: <variouspotatoes> thats fine
+[20:48:44] [Server thread/INFO]: <variouspotatoes> just need your coordinates
+[20:48:45] [Server thread/INFO]: <Sir_Jhaeros> mitch, do you want ardite?
+[20:48:52] [Server thread/INFO]: <AwesomeOutcast> yes please
+[20:48:52] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 6.156035242987741,-2.087665372276163,8.515385111501473
+[20:48:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2824ms behind, skipping 56 tick(s)
+[20:48:57] [Server thread/INFO]: <AwesomeOutcast> if you're offering, that is
+[20:49:00] [Server thread/INFO]: <Sir_Jhaeros> aight
+[20:49:08] [Server thread/INFO]: <Sir_Jhaeros> anything to trade or nah
+[20:49:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2058ms behind, skipping 41 tick(s)
+[20:49:12] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 7.283597630669988,5.581043993539041,-5.693628643609173
+[20:49:12] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 7.090423684794473,5.07446445690168,-6.144754598115981
+[20:49:14] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 5.541419850201123,-5.916202432532437,-6.375551917757377
+[20:49:14] [Server thread/INFO]: <AwesomeOutcast> what do you need?
+[20:49:15] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.984156833431712,-1.8797385158810158,-3.727073001185829
+[20:49:16] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.411267336212745,-2.48766283407641,-4.503146235455517
+[20:49:20] [Server thread/INFO]: <Sir_Jhaeros> blaze rods :(
+[20:49:20] [Server thread/INFO]: <AwesomeOutcast> want a fast shovel?
+[20:49:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12467ms behind, skipping 249 tick(s)
+[20:49:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2838ms behind, skipping 56 tick(s)
+[20:49:56] [Server thread/INFO]: <AwesomeOutcast> or the most powerful sword you can make using tconstruct??
+[20:49:57] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 6.630610830445448,-1.2204634039571687,8.278844413911258
+[20:49:57] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 8.8629917576568,-1.6966443408813774,5.892533816077936
+[20:49:58] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 10.2420505935022,-2.0305444944879625,4.176866925016597
+[20:49:58] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 10.272763057276052,-1.1112602008056527,2.5788429501282764
+[20:50:00] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.812721847630428,4.039216779077087,-1.054009156171027
+[20:50:02] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.31260266569484,4.129487317888291,2.2256584677923357
+[20:50:03] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 9.800660410811133,3.5525629526097333,2.4339163077669603
+[20:50:03] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 10.238216782088784,-0.6661091417319653,2.542396972236727
+[20:50:06] [Server thread/INFO]: <Sir_Jhaeros> ughhhhh
+[20:50:09] [Server thread/INFO]: <Sir_Jhaeros> that sounds really good
+[20:50:16] [Server thread/INFO]: <Sir_Jhaeros> but blood magic makes me use a speicific sword
+[20:50:19] [Server thread/INFO]: <Sir_Jhaeros> to collect souls
+[20:50:19] [Server thread/INFO]: <AwesomeOutcast> but idk if it works with blood magic
+[20:50:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8135ms behind, skipping 162 tick(s)
+[20:50:30] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 5.884973961415653,-4.737917869988422,-8.062065935753495
+[20:50:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3325ms behind, skipping 66 tick(s)
+[20:50:38] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 4.350469060227397,8.763362763466134,-3.8063607261395873
+[20:50:40] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 4.530044165952177,-0.9332963771737468,-9.308159725634596
+[20:50:45] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 5.415259771638603,-0.8310487158369568,-9.006380734251593
+[20:50:46] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 4.8837357499969585,-2.0479399741076634,-9.499835045806549
+[20:50:47] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 6.164601878834446,-1.924787790494804,-8.588864944563682
+[20:50:48] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 0.811426408850366,-0.11267375769651267,-10.900895412288065
+[20:50:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6350ms behind, skipping 127 tick(s)
+[20:51:10] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 5.657423974365656,-2.672417096977725,-8.768432933435633
+[20:51:10] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 0.830585329517362,-2.138253320163926,-10.64093616691855
+[20:51:11] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -5.958470764976255,-1.823498944858784,-8.995194213440413
+[20:51:11] [Server thread/INFO]: <AwesomeOutcast> oh how about all the flowers that i picked for you
+[20:51:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3855ms behind, skipping 77 tick(s)
+[20:51:19] [Server thread/INFO]: <Sir_Jhaeros> yeah sure
+[20:51:30] [Server thread/INFO]: <Sir_Jhaeros> you can put them in the chest by the stone fountain thingy outside my house
+[20:51:41] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.815405197995688,-1.7547980291513312,-8.420699095116504
+[20:51:41] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -3.748038145802866,-2.304463269441996,-9.731903697551843
+[20:51:42] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -0.17251963472995158,-1.4773579983758438,-10.405563916704693
+[20:51:44] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 4.591463708808533,-0.561326387916715,-9.738091638771209
+[20:51:44] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 4.557213627949523,-0.6299692257864891,-9.618215883779499
+[20:51:49] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 7.545801467541878,0.4544647219842375,-7.491767851170096
+[20:51:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2851ms behind, skipping 57 tick(s)
+[20:51:52] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -0.27872722236043046,9.466741175375887,-5.2686567591212
+[20:52:03] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 10.921450343307015,-0.7578329320594364,-0.9947848876265653
+[20:52:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2212ms behind, skipping 44 tick(s)
+[20:52:05] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 8.77106111965827,0.7159450400491423,-6.450655541333731
+[20:52:16] [Server thread/INFO]: <AwesomeOutcast> i can trade it to you for the ardite when you get it?
+[20:52:16] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -0.7120815597593264,-2.9603293033670326,-10.652974196594869
+[20:52:17] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -0.45951853622045746,-2.9341104392548303,-10.344006264235531
+[20:52:18] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.7781428274020072,-1.0426147536022157,-10.686896952252368
+[20:52:19] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -4.401189156105374,1.270986799600749,-9.62518617465605
+[20:52:20] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -2.384897943672968,4.014335560550798,-9.369014732297956
+[20:52:21] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 0.03556999609918421,-2.682391554476297,-10.735532122990094
+[20:52:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6054ms behind, skipping 121 tick(s)
+[20:52:27] [Server thread/INFO]: <Sir_Jhaeros> sure
+[20:52:30] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.975693217386606,3.884464798147526,-0.11404247480470531
+[20:52:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2343ms behind, skipping 46 tick(s)
+[20:52:47] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.107475754475217,0.9764783823608525,-7.549676558610486
+[20:52:48] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -5.469219738186439,-1.3489307971803512,-9.37528933581848
+[20:52:49] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -3.6083848115529236,-0.8630253729631931,-9.984181633464004
+[20:52:52] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -2.4107938093825396,-0.07607033173881916,-10.644129147945364
+[20:52:52] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -3.4150358199672155,-0.17699417741933843,-10.25843811692107
+[20:52:53] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.011635964946208,0.8927030522650625,-8.997129043119116
+[20:52:54] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.974951447615922,1.4881963501834718,-6.860119980151353
+[20:52:55] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.315649451183845,1.5342038200607178,-8.321341887810036
+[20:52:56] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.934037380756308,1.9624106905446723,-6.590092950552389
+[20:52:57] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -8.036386790805182,4.7475101184652715,-4.53138302437344
+[20:53:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6981ms behind, skipping 139 tick(s)
+[20:53:17] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -8.33781059521425,-3.045208874188944,-6.206134408623484
+[20:53:18] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.67056775848232,-3.615664840923955,-3.9032294154882266
+[20:53:20] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.061025445884297,-2.3187572204948026,5.746347250872645
+[20:53:21] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -11.250272372190466,0.8119785014143375,-2.372602886018285
+[20:53:22] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.217557962806268,-0.13248866358809863,-7.582891872811388
+[20:53:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2942ms behind, skipping 58 tick(s)
+[20:53:23] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.213651419801863,-3.8180646689325073,4.986221162145057
+[20:53:24] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -10.481356585372168,-2.702990451811907,0.6724951819261378
+[20:53:25] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -10.78392451857303,-1.6958103388315138,-1.069765010623314
+[20:53:26] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -10.156882409576383,-0.5474764241081118,-3.1217633451148004
+[20:53:27] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -11.123774283991452,-0.29172569693074735,-5.0261050237163545
+[20:53:28] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -8.875844591327677,0.06952551858388034,-6.237795535948749
+[20:53:29] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.073925174213173,0.18086732577584996,-8.221480680755917
+[20:53:30] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -4.640033086311632,-1.3044892381143356,-9.32863870809831
+[20:53:35] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 1.1190950945740497,-6.008790753889123,-9.51144526807252
+[20:53:39] [Server thread/INFO]: Sir_Jhaeros lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:53:39] [Server thread/INFO]: Sir_Jhaeros left the game
+[20:54:43] [Server thread/INFO]: <AwesomeOutcast> i'll trade for some copper ryan
+[20:54:51] [Server thread/INFO]: <variouspotatoes> i think i have that
+[20:54:55] [Server thread/INFO]: <AwesomeOutcast> do you have a stack?
+[20:55:04] [Server thread/INFO]: <variouspotatoes> i dont think so
+[20:55:12] [Server thread/INFO]: <variouspotatoes> i can go mining tho
+[20:55:42] [Server thread/INFO]: variouspotatoes tried to swim in lava
+[20:55:54] [Server thread/INFO]: <AwesomeOutcast> monkaS
+[20:56:05] [Server thread/INFO]: <variouspotatoes> thermal foundation copper right?
+[20:56:09] [Server thread/INFO]: <AwesomeOutcast> yeah
+[20:56:15] [Server thread/INFO]: <variouspotatoes> ive got 27
+[20:56:32] [Server thread/INFO]: <AwesomeOutcast> hmm. i'm not sure that's enough
+[20:56:49] [Server thread/INFO]: <AwesomeOutcast> but i hate milking a friend for all they've got
+[20:57:01] [Server thread/INFO]: <variouspotatoes> i have to go mining anyways
+[20:57:05] [Server thread/INFO]: <variouspotatoes> ill get some nbd
+[20:58:42] [Server thread/INFO]: <AwesomeOutcast> i have your pick btw
+[20:58:46] [Server thread/INFO]: <variouspotatoes> sweet
+[20:58:53] [Server thread/INFO]: <variouspotatoes> im going to go mining ill pick it up later
+[20:58:57] [Server thread/INFO]: <variouspotatoes> haha "pick"
+[20:59:09] [Server thread/INFO]: <AwesomeOutcast> lol
+[21:05:51] [User Authenticator #35/INFO]: UUID of player Sir_Jhaeros is febe46b0-4476-4013-ac14-27b932cf7d03
+[21:05:55] [Server thread/INFO]: Sir_Jhaeros[/129.161.198.105:64579] logged in with entity id 1382626 at (1410.9140088922761, 46.0, -1059.1641049750706)
+[21:05:55] [Server thread/INFO]: Sir_Jhaeros joined the game
+[21:07:34] [Server thread/INFO]: <variouspotatoes> wait mitch did you want ore or ingots
+[21:07:39] [Server thread/INFO]: <variouspotatoes> does it matter
+[21:07:40] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -2.027773175132097,0.33237775557950755,-10.217595175654196
+[21:07:41] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -4.951872017051755,-0.11021787168044739,-9.356162670538879
+[21:07:41] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.531545766768204,-0.6274250173524365,-8.227781517452968
+[21:07:43] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.8673586653596885,-0.5182963648644119,-8.128693421690286
+[21:07:44] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -6.167469075262261,-0.47384155912519077,-8.656408252028541
+[21:07:45] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -3.0490938461759924,2.5117125104642426,-11.334241316438465
+[21:07:46] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -0.381958711640209,3.6481156207573804,-11.483145716509398
+[21:07:47] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 1.8495428709270527,4.280658811753284,-11.113088288816925
+[21:07:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2988ms behind, skipping 59 tick(s)
+[21:07:51] [Server thread/INFO]: <AwesomeOutcast> ore
+[21:08:08] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.688887607595461,2.019540485618755,-4.196391001953771
+[21:08:08] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -8.175920809915624,1.0068222343459752,-6.047494717656718
+[21:08:16] [Server thread/INFO]: <variouspotatoes> i have 27 ingots and like 23 ish
+[21:08:18] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 6.895309751741252,-0.11423634491320911,-8.075504639419478
+[21:08:20] [Server thread/INFO]: <variouspotatoes> ores
+[21:08:41] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.951666455790928,-5.3670954607474926,-9.7946283895119
+[21:08:42] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.6183352274094887,-4.997581567887714,-9.995050844619527
+[21:08:43] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -2.2958408137451443,1.5518703565445762,-10.428831221414612
+[21:08:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3562ms behind, skipping 71 tick(s)
+[21:08:46] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -2.6808568379040025,-1.135366961995686,-10.53257686041161
+[21:08:47] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.711511139833874,-1.6731332736388609,-10.384900693179816
+[21:08:48] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -1.5592997065502914,-0.8405651500025257,-10.655985906552587
+[21:08:50] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -5.153979915635318,-2.870427390591452,-8.940663006223076
+[21:08:53] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -10.577401741824133,0.02310531942755034,-1.1068704932422406
+[21:08:56] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -7.540998061079563,4.554297287638356,-6.010535717126913
+[21:09:02] [Server thread/WARN]: Sir_Jhaeros moved too quickly! 5.750021054279387,2.7127494704042903,-8.029846035948822
+[21:09:06] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.209229852503768,1.5447025944033612,-4.8718660136523795
+[21:09:08] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.621202692115048,0.7298142729841146,-4.902533558102732
+[21:09:08] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -9.645103614304617,0.9228653714749129,-4.820170670870539
+[21:09:09] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -11.203280143055736,0.02337078798012726,-2.9167823300465443
+[21:09:10] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -10.100730471333918,-0.7847603934687655,-3.344763339636984
+[21:09:11] [Server thread/WARN]: Sir_Jhaeros moved too quickly! -10.139594195182553,-1.1464909140793367,-2.7584829451141104
+[21:09:12] [Server thread/INFO]: Sir_Jhaeros burned to death
+[21:09:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14655ms behind, skipping 293 tick(s)
+[21:09:19] [Server thread/INFO]: <AwesomeOutcast> >_>
+[21:10:26] [Server thread/INFO]: There are 3/20 players online:
+[21:10:26] [Server thread/INFO]: AwesomeOutcast, variouspotatoes, Sir_Jhaeros
